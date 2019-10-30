@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@font-face {
+    font-family: "OldEnglish"; /* Имя шрифта */
+    src: url(../fonts/OldEnglish.ttf); /* Путь к файлу со шрифтом */
+   }
+
+* {
+    font-family: 'DM Serif Display', serif;
+    line-height: 1.4;
+    color: #EABF77;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    background-color: rgba(34,27,27);
+    color: white;
+    box-sizing: border-box;
+}
+
+#pageWrap{
+/*    height: 1100px;*/
+}
+
+.sectionTitle{
+    font-size: 55px;
+    font-family: 'OldEnglish';
+    text-align: center;
+}
+
+.comingSoonWrap{
+    background-image: url(../img/back_soon.png);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.imgKavichki{
+    height: 180px;
+    width: auto;
+}
+    
+.soonText{
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    margin-right: 7rem;
+}
+
+.soonMainText{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.19em;
+    margin-left: 9rem;
+}
