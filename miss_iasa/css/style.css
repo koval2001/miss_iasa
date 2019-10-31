@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background-color: rgba(34,27,27);
+    background-color: #211B1B;
     color: white;
     box-sizing: border-box;
 }
@@ -37,7 +37,6 @@ body{
 
 .comingSoonWrap{
     background-image: url(../img/back_soon.png);
-    background-color: #cccccc; /* Used if the image is unavailable */
     height: 800px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -69,18 +68,48 @@ body{
 
 .navSemi{
     margin-top: 30px;
+    text-align: center;
 }
 
 .menuBlock{
     font-family: 'DM Serif Display', serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
-    text-align: center;
     letter-spacing: 0.065em;
     color: #EABF77;
 }
 
+.customCol17 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.customCol17 {
+    width: 14.285714%;
+    float: left;
+}
+
 .line{
     border: 1px solid #EABF77;
+}
+
+.mstrpiecesWrap{
+    background-image: url(../img/masterpiece.png);
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.mstrpieceSmall{
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: #EABF77;
+}
+
+.mstrpieceBig{
+    font-size: 144px;
+    font-family: 'OldEnglish', serif;
+    color: #EABF77;
 }
