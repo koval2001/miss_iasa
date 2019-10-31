@@ -31,7 +31,7 @@ body{
 
 .sectionTitle{
     font-size: 55px;
-    font-family: 'OldEnglish';
+    font-family: 'OldEnglish', serif;
     text-align: center;
 }
 
@@ -61,4 +61,26 @@ body{
     font-size: 40px;
     letter-spacing: 0.19em;
     margin-left: 9rem;
+}
+
+.navWrap{
+    height: 70px;
+}
+
+.navSemi{
+    margin-top: 30px;
+}
+
+.menuBlock{
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #EABF77;
+}
+
+.line{
+    border: 1px solid #EABF77;
 }
