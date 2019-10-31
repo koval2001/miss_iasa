@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background-color: rgba(34,27,27)! important;
+    background-color: #221B1B;
     color: white;
     box-sizing: border-box;
 }
@@ -31,7 +31,7 @@ body{
 
 .sectionWrap{
     margin-top: 3rem;
-    background-color: rgba(34,27,27)! important;
+    background-color: #221B1B;
 }
 
 .sectionTitle{
@@ -46,16 +46,19 @@ body{
 }
 
 .comingSoonWrap{
+    border-top: 1px solid #EABF77;
+    border-bottom: 1px solid #EABF77;
     background-image: url(../img/back_soon.png);
-    background-color: #000; /* Used if the image is unavailable */
-    height: 800px; /* You must set a specified height */
+    background-color: #221B1B; /* Used if the image is unavailable */
+    height: 677px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+    width: 100%;
 }
 
 .imgKavichki{
-    height: 180px;
+    height: 150px;
     width: auto;
 }
     
@@ -70,13 +73,15 @@ body{
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 0.19em;
+    margin-top: 3rem;
     margin-left: 9rem;
 }
 
 .partnersWrap{
+    border-top: 1px solid #EABF77;
     background-image: url(../img/back_partners.png);
-    background-color: #000; /* Used if the image is unavailable */
-    height: 800px; /* You must set a specified height */
+    background-color: #221B1B; /* Used if the image is unavailable */
+    height: 641px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -88,6 +93,14 @@ body{
 
 .card-text{
     margin-left: 0;
+}
+
+.row{
+    width: 100%;
+}
+
+.rowPhoto, .rowPartners, .rowFooter{
+    margin: 0 auto;
 }
 
 /*Footer*/
@@ -102,4 +115,94 @@ body{
 
 .footerIcon{
     font-size: 32pt;
+}
+
+@media screen and (max-width:1024px)
+{
+    .soonText{
+        margin-left: 7rem;
+    }
+    .soonMainText{
+        margin-top: 1rem;
+        margin-left: 7rem;
+    }   
+    .card-text{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:991px){
+    .card-text{
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:822px)
+{
+    .soonMainText{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .soonText{
+        margin-right: 0rem;
+        font-size: 20px;
+    }
+    .soonMainText{
+        margin-top: 1rem;
+        margin-left: 7rem;
+        font-size: 32px;
+    }   
+    .card-text{
+        margin-left: 0;
+    }
+    .card-body{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    .sectionTitle{
+        font-size: 50px;
+    }
+    .soonText{
+        margin-left: 4.25rem;
+    }
+    .soonMainText{
+        margin-top: 3rem;
+        margin-left: 4.25rem;
+    }   
+    .card-text{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:375px)
+{
+    .sectionTitle{
+        font-size: 48px;
+    }
+    .soonText{
+        font-size: 18px;
+        margin-left: 4.25rem;
+    }
+    .soonMainText{
+        font-size: 30px;
+        margin-top: 2rem;
+        margin-left: 4.25rem;
+    }   
+    .imgKavichki{
+        height: 145px;
+    }
+    .firstImg{
+        padding-left: 15px;
+    }
+    .card-text{
+        margin-left: 0;
+    }
 }
