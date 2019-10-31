@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    background-color: rgba(34,27,27);
+    background-color: rgba(34,27,27)! important;
     color: white;
     box-sizing: border-box;
 }
@@ -29,15 +29,25 @@ body{
 /*    height: 1100px;*/
 }
 
+.sectionWrap{
+    margin-top: 3rem;
+    background-color: rgba(34,27,27)! important;
+}
+
 .sectionTitle{
-    font-size: 55px;
+    font-size: 64px;
     font-family: 'OldEnglish';
     text-align: center;
+    margin-bottom: 3rem;
+}
+
+.underline {
+  border-bottom: 1px solid #EABF77;
 }
 
 .comingSoonWrap{
     background-image: url(../img/back_soon.png);
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-color: #000; /* Used if the image is unavailable */
     height: 800px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -61,4 +71,35 @@ body{
     font-size: 40px;
     letter-spacing: 0.19em;
     margin-left: 9rem;
+}
+
+.partnersWrap{
+    background-image: url(../img/back_partners.png);
+    background-color: #000; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card-text{
+    margin-left: 0;
+}
+
+/*Footer*/
+
+.footerWrap{
+    border-top: 1px solid #EABF77;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footerIcon{
+    font-size: 32pt;
 }
