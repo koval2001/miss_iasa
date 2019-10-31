@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+
 @font-face {
     font-family: "OldEnglish"; /* Имя шрифта */
     src: url(../fonts/OldEnglish.ttf); /* Путь к файлу со шрифтом */
-   }
+}
 
 * {
     font-family: 'DM Serif Display', serif;
@@ -10,32 +11,32 @@
     color: #EABF77;
 }
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-html{
-    overflow-x:hidden;
+html {
+    overflow-x: hidden;
 }
 
-body{
+body {
     background-color: #211B1B;
     color: white;
     box-sizing: border-box;
 }
 
-#pageWrap{
-/*    height: 1100px;*/
+#pageWrap {
+    /*    height: 1100px;*/
 }
 
-.sectionTitle{
+.sectionTitle {
     font-size: 55px;
     font-family: 'OldEnglish', serif;
     text-align: center;
 }
 
-.comingSoonWrap{
+.comingSoonWrap {
     background-image: url(../img/back_soon.png);
     height: 800px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -43,35 +44,35 @@ body{
     background-size: cover;
 }
 
-.imgQuotes{
+.imgQuotes {
     height: 180px;
     width: auto;
 }
-    
-.soonText{
+
+.soonText {
     font-size: 24px;
     margin-top: 2rem;
     margin-left: 9rem;
     margin-right: 7rem;
 }
 
-.soonMainText{
+.soonMainText {
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 0.19em;
     margin-left: 9rem;
 }
 
-.navWrap{
+.navWrap {
     height: 70px;
 }
 
-.navSemi{
+.navSemi {
     margin-top: 30px;
     text-align: center;
 }
 
-.menuBlock{
+.menuBlock {
     font-family: 'DM Serif Display', serif;
     font-size: 20px;
     letter-spacing: 0.065em;
@@ -90,11 +91,11 @@ body{
     float: left;
 }
 
-.line{
+.line {
     border: 1px solid #EABF77;
 }
 
-.mstrpiecesWrap{
+.mstrpiecesWrap {
     background-image: url(../img/masterpiece.png);
     height: 700px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -102,18 +103,19 @@ body{
     background-size: cover;
 }
 
-.mstrpieceSmall{
+.mstrpieceSmall {
     font-family: 'DM Serif Display', serif;
     font-size: 28px;
     color: #EABF77;
 }
 
-.mstrpieceBig{
+.mstrpieceBig {
     font-size: 144px;
     font-family: 'OldEnglish', serif;
     color: #EABF77;
 }
-.teaserWrap{
+
+.teaserWrap {
     background-image: url(../img/M.svg);
     height: 700px; /* You must set a specified height */
     background-position: left; /* Center the image */
