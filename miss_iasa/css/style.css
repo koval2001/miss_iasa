@@ -113,3 +113,10 @@ body{
     font-family: 'OldEnglish', serif;
     color: #EABF77;
 }
+.teaserWrap{
+    background-image: url(../img/M.svg);
+    height: 700px; /* You must set a specified height */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 25%;
+}
