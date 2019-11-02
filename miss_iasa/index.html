@@ -28,30 +28,32 @@
             </button>
           </div>
 
-          <div class="collapse navbar-collapse flex-column " id="navbar">
-            <ul class="navbar-nav  w-100 justify-content-between px-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#">miss iasa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">teaser</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">meeting</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">first ps</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">second ps</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">promo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">partners</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse flex-column" id="navbar">
+              <scrollactive ref="scrollactive flex-column w-100" :offset="100" :duration="1200" >
+                <ul class="navbar-nav  w-100 justify-content-between px-3">
+                  <li class="nav-item">
+                    <a class="nav-link scrollactive-item" href="#">miss iasa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollactive-item" href="#teaser">teaser</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollactive-item" href="#">meeting</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollactive-item" href="#firstPH">first ps</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled scrollactive-item" href="#">second ps</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled scrollactive-item" href="#">promo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollactive-item" href="#partners">partners</a>
+                  </li>
+                </ul>
+              </scrollactive>
           </div>
         </nav>
 <!--
@@ -113,25 +115,21 @@
 
     <div class="mstrpiecesWrap">
         <div class="h-100 container">
-            <div class="row justify-content-center">
-                <p class="mstrpieceSmall">MISS IASA 2019</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-2">
-                    <div class="line"></div>
+            <div class="row align-content-center justify-content-center rowTitle">
+                <div class="col-sm-12 col-md-4">
+                    <p class="mstrpieceSmall line text-uppercase text-center">miss iasa 2019</p>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <p class="mstrpieceBig">Masterpieces</p>
+                <div class="col-12">
+                    <p class="mstrpieceBig text-center">Masterpieces</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <section class="sectionWrap">
-        <h3 class="sectionTitle">Teaser</h3>
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <div class="line"></div>
+    <section id="teaser" class="sectionWrap">
+        <div class="row justify-content-center rowTitle">
+            <div class="col-8 col-md-6">
+                <h3 class="sectionTitle line">Teaser</h3>
             </div>
         </div>
         <div class="teaserWrap">
@@ -139,7 +137,7 @@
         </div>
     </section>
 
-    <section class="sectionWrap">
+    <section id="firstPH" class="sectionWrap">
         <div class="row justify-content-center rowPhoto">
             <div class="col-12 col-md-6">
                 <h3 class="sectionTitle line">First Photoshoot</h3>
@@ -157,7 +155,8 @@
             </div>
         </div>
     </section>
-    <section class="sectionWrap">
+    
+    <section id="partners" class="sectionWrap">
         <div class="row justify-content-center rowPartners">
             <div class="col-8 col-md-6">
                 <h3 class="sectionTitle line">Partners</h3>
@@ -183,6 +182,7 @@
             </div>
         </div>
     </section>
+    
     <footer class="footerWrap">
         <div class="container">
             <div class="row justify-content-center rowFooter">
@@ -198,5 +198,21 @@
             </div>
         </div>
     </footer>
-</div>
+    </div>
+   <script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-scrollactive@0.5.1/dist/vue-scrollactive.min.js"></script>
+
+<script>
+
+    var app = new Vue({
+        el: '#pageWrap',
+        data: {
+            offset: 200,
+            duration: 1200
+        }
+    })
+
+
+</script>
+    <script src="js/vue.min.js"></script>
 </body>
