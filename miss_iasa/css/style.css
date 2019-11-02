@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+
 @font-face {
     font-family: "OldEnglish"; /* Имя шрифта */
     src: url(../fonts/OldEnglish.ttf); /* Путь к файлу со шрифтом */
-   }
+}
 
 * {
     font-family: 'DM Serif Display', serif;
@@ -10,42 +11,40 @@
     color: #EABF77;
 }
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-html{
-    overflow-x:hidden;
+html {
+    overflow-x: hidden;
 }
 
-body{
+
+body {
     background-color: #221B1B;
     color: white;
     box-sizing: border-box;
 }
 
-#pageWrap{
-/*    height: 1100px;*/
+#pageWrap {
+    /*    height: 1100px;*/
 }
 
-.sectionWrap{
+
+.sectionWrap {
     margin-top: 3rem;
     background-color: #221B1B;
 }
 
-.sectionTitle{
+.sectionTitle {
     font-size: 64px;
-    font-family: 'OldEnglish';
+    font-family: 'OldEnglish', serif;
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.underline {
-  border-bottom: 1px solid #EABF77;
-}
-
-.comingSoonWrap{
+.comingSoonWrap {
     border-top: 1px solid #EABF77;
     border-bottom: 1px solid #EABF77;
     background-image: url(../img/back_soon.png);
@@ -57,19 +56,19 @@ body{
     width: 100%;
 }
 
-.imgKavichki{
-    height: 150px;
+.imgQuotes {
+    height: 145px;
     width: auto;
 }
-    
-.soonText{
+
+.soonText {
     font-size: 24px;
     margin-top: 2rem;
     margin-left: 9rem;
     margin-right: 7rem;
 }
 
-.soonMainText{
+.soonMainText {
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 0.19em;
@@ -77,7 +76,95 @@ body{
     margin-left: 9rem;
 }
 
-.partnersWrap{
+/*
+.navWrap {
+    height: 70px;
+}
+*/
+
+/*
+.navSemi {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+*/
+nav{
+    background-color: #221B1B;
+    color: #EABF77!important;
+}
+.navbar-nav, .nav-link {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    letter-spacing: 0.065em;
+    color: #EABF77;
+    text-transform: uppercase;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: papayawhip;
+}
+.navbar-toggler-icon i {
+    color: #EABF77 !important;
+    border-color: #EABF77 !important;
+    outline-color: none;
+}
+
+button:focus,button:active:focus,button.active:focus,
+button.focus,button:active.focus,button.active.focus {
+    outline: none;
+}
+
+/*
+.customCol17 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.customCol17 {
+    width: 14.285714%;
+    float: left;
+}
+*/
+
+.line {
+    border-bottom: 1px solid #EABF77;
+}
+
+.mstrpiecesWrap {
+    background-image: url(../img/masterpiece.png);
+    height: 698px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    border-bottom: 1px solid #EABF77;
+    border-top: 1px solid #EABF77;
+    padding-top: 15%;
+}
+
+.mstrpieceSmall {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: #EABF77;
+}
+
+.mstrpieceBig {
+    font-size: 144px;
+    font-family: 'OldEnglish', serif;
+    color: #EABF77;
+}
+
+.teaserWrap {
+    background-image: url(../img/M.svg);
+    height: 700px; /* You must set a specified height */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 25%;
+}
+
+.partnersWrap {
     border-top: 1px solid #EABF77;
     background-image: url(../img/back_partners.png);
     background-color: #221B1B; /* Used if the image is unavailable */
@@ -87,25 +174,25 @@ body{
     background-size: cover;
 }
 
-.card{
+.card {
     background-color: transparent;
 }
 
-.card-text{
+.card-text {
     margin-left: 0;
 }
 
-.row{
+.row {
     width: 100%;
 }
 
-.rowPhoto, .rowPartners, .rowFooter{
+.rowPhoto, .rowPartners, .rowFooter {
     margin: 0 auto;
 }
 
 /*Footer*/
 
-.footerWrap{
+.footerWrap {
     border-top: 1px solid #EABF77;
     height: 150px;
     text-align: center;
@@ -113,96 +200,101 @@ body{
     align-items: center;
 }
 
-.footerIcon{
+.footerIcon {
     font-size: 32pt;
 }
 
-@media screen and (max-width:1024px)
-{
-    .soonText{
+@media screen and (max-width: 1024px) {
+    .soonText {
         margin-left: 7rem;
     }
-    .soonMainText{
+
+    .soonMainText {
         margin-top: 1rem;
         margin-left: 7rem;
-    }   
-    .card-text{
+    }
+
+    .card-text {
         margin-left: 0;
     }
 }
 
-@media screen and (max-width:991px){
-    .card-text{
+@media screen and (max-width: 991px) {
+    .card-text {
         margin-left: 5rem;
         margin-right: 0;
     }
 }
 
-@media screen and (max-width:822px)
-{
-    .soonMainText{
+@media screen and (max-width: 822px) {
+    .soonMainText {
         font-size: 36px;
     }
 }
 
-@media screen and (max-width:768px)
-{
-    .soonText{
-        margin-right: 0rem;
+@media screen and (max-width: 768px) {
+    .soonText {
+        margin-right: 0;
         font-size: 20px;
     }
-    .soonMainText{
+
+    .soonMainText {
         margin-top: 1rem;
         margin-left: 7rem;
         font-size: 32px;
-    }   
-    .card-text{
+    }
+
+    .card-text {
         margin-left: 0;
     }
-    .card-body{
+
+    .card-body {
         margin-left: 3rem;
     }
 }
 
-@media screen and (max-width:425px)
-{
-    .sectionTitle{
+@media screen and (max-width: 425px) {
+    .sectionTitle {
         font-size: 50px;
     }
-    .soonText{
+
+    .soonText {
         margin-left: 4.25rem;
     }
-    .soonMainText{
+
+    .soonMainText {
         margin-top: 3rem;
         margin-left: 4.25rem;
-    }   
-    .card-text{
+    }
+
+    .card-text {
         margin-left: 0;
     }
-    
+
 }
 
-@media screen and (max-width:375px)
-{
-    .sectionTitle{
+@media screen and (max-width: 375px) {
+    .sectionTitle {
         font-size: 48px;
     }
-    .soonText{
+
+    .soonText {
         font-size: 18px;
         margin-left: 4.25rem;
     }
-    .soonMainText{
+
+    .soonMainText {
         font-size: 30px;
         margin-top: 2rem;
         margin-left: 4.25rem;
-    }   
-    .imgKavichki{
-        height: 145px;
     }
-    .firstImg{
+
+    .firstImg {
         padding-left: 15px;
     }
-    .card-text{
+
+    .card-text {
         margin-left: 0;
     }
 }
+
