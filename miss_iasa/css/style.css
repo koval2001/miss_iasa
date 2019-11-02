@@ -157,6 +157,15 @@ button.focus,button:active.focus,button.active.focus {
     color: #EABF77;
 }
 
+.meetingWrap {
+    background-image: url(../img/A.svg);
+    height: 700px; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 25%;
+    margin-bottom: 8rem;
+}
+
 .teaserWrap {
     background-image: url(../img/M.svg);
     height: 700px; /* You must set a specified height */

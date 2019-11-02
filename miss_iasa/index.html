@@ -35,20 +35,22 @@
                     <a class="nav-link scrollactive-item" href="#">miss iasa</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link scrollactive-item" href="#teaser">teaser</a>
+                    <a class="nav-link scrollactive-item" href="#teaser">crime scene</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link scrollactive-item" href="#">meeting</a>
+                    <a class="nav-link scrollactive-item" href="#meeting">meeting</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link scrollactive-item" href="#firstPH">first ps</a>
                   </li>
+<!--
                   <li class="nav-item">
                     <a class="nav-link disabled scrollactive-item" href="#">second ps</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled scrollactive-item" href="#">promo</a>
                   </li>
+-->
                   <li class="nav-item">
                     <a class="nav-link scrollactive-item" href="#partners">partners</a>
                   </li>
@@ -129,11 +131,74 @@
     <section id="teaser" class="sectionWrap">
         <div class="row justify-content-center rowTitle">
             <div class="col-8 col-md-6">
-                <h3 class="sectionTitle line">Teaser</h3>
+                <h3 class="sectionTitle line text-capitalize">crime scene</h3>
             </div>
         </div>
         <div class="teaserWrap">
 
+        </div>
+    </section>
+    
+    <section id="meeting" class="sectionWrap">
+        <div class="row justify-content-center rowTitle">
+            <div class="col-8 col-md-6">
+                <h3 class="sectionTitle line">Meeting</h3>
+            </div>
+        </div>
+        <div class="meetingWrap">
+            <div class="container">
+  <div class="row">
+    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+    </a>
+  </div>
+</div>
+<!--
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-5 col-md-3 mt-5">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-3 mt-5">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-3 mt-5">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-3 mt-5">
+                        <img src="img/meet.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+-->
         </div>
     </section>
 
@@ -187,13 +252,13 @@
         <div class="container">
             <div class="row justify-content-center rowFooter">
                 <div class="col-2 col-sm-2 col-md-1">
-                    <a class="footerIcon" href="#"><i class="fab fa-telegram"></i></a>
+                    <a class="footerIcon" href="https://t.me/iasa_event"><i class="fab fa-telegram"></i></a>
                 </div>
                 <div class="col-2 col-sm-2 col-md-1">
-                    <a class="footerIcon" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="footerIcon" href="https://www.facebook.com/studrada.iasa/"><i class="fab fa-facebook"></i></a>
                 </div>
                 <div class="col-2 col-sm-2 col-md-1">
-                    <a class="footerIcon" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="footerIcon" href="instagram.com/studrada_iasa"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -201,7 +266,7 @@
     </div>
    <script src="https://unpkg.com/vue"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue-scrollactive@0.5.1/dist/vue-scrollactive.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script>
 
     var app = new Vue({
@@ -212,7 +277,10 @@
         }
     })
 
-
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
 </script>
     <script src="js/vue.min.js"></script>
 </body>
