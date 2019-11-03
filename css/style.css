@@ -1,79 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
 
 @font-face {
-    font-family: "OldEnglish"; /* Имя шрифта */
-    src: url(../fonts/OldEnglish.ttf); /* Путь к файлу со шрифтом */
+	font-family: 'OldEnglish'; /* Имя шрифта */
+	src: url(../fonts/OldEnglish.ttf); /* Путь к файлу со шрифтом */
 }
 
 * {
-    font-family: 'DM Serif Display', serif;
-    line-height: 1.4;
-    color: #EABF77;
+	font-family: 'DM Serif Display', serif;
+	line-height: 1.4;
+	color: #eabf77;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
-
 body {
-    background-color: #221B1B;
-    color: white;
-    box-sizing: border-box;
+	background-color: #221b1b;
+	color: white;
+	box-sizing: border-box;
 }
 
 #pageWrap {
-    /*    height: 1100px;*/
+	/*    height: 1100px;*/
 }
 
-
 .sectionWrap {
-    margin-top: 3rem;
-    background-color: #221B1B;
+	margin-top: 3rem;
+	background-color: #221b1b;
 }
 
 .sectionTitle {
-    font-size: 64px;
-    font-family: 'OldEnglish', serif;
-    text-align: center;
-    margin-bottom: 3rem;
+	font-size: 64px;
+	font-family: 'OldEnglish', serif;
+	text-align: center;
+	margin-bottom: 3rem;
 }
 
 .comingSoonWrap {
-    border-top: 1px solid #EABF77;
-    border-bottom: 1px solid #EABF77;
-    background-image: url(../img/back_soon.png);
-    background-color: #221B1B; /* Used if the image is unavailable */
-    height: 677px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    width: 100%;
+	border-top: 1px solid #eabf77;
+	border-bottom: 1px solid #eabf77;
+	background-image: url(../img/back_soon.png);
+	background-color: #221b1b; /* Used if the image is unavailable */
+	height: 677px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	width: 100%;
 }
 
 .imgQuotes {
-    height: 145px;
-    width: auto;
+	height: 145px;
+	width: auto;
 }
 
 .soonText {
-    font-size: 24px;
-    margin-top: 2rem;
-    margin-left: 9rem;
-    margin-right: 7rem;
+	font-size: 24px;
+	margin-top: 2rem;
+	margin-left: 9rem;
+	margin-right: 7rem;
 }
 
 .soonMainText {
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 0.19em;
-    margin-top: 3rem;
-    margin-left: 9rem;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 0.19em;
+	margin-top: 3rem;
+	margin-left: 9rem;
 }
 
 /*
@@ -90,32 +88,38 @@ body {
 }
 */
 nav {
-    background-color: #221B1B;
-    color: #EABF77 !important;
-    width: 100%;
+	background-color: #221b1b;
+	color: #eabf77 !important;
+	width: 100%;
 }
 
-.navbar-nav, .nav-link {
-    font-family: 'DM Serif Display', serif;
-    font-size: 20px;
-    letter-spacing: 0.065em;
-    color: #EABF77;
-    text-transform: uppercase;
+.navbar-nav,
+.nav-link {
+	font-family: 'DM Serif Display', serif;
+	font-size: 20px;
+	letter-spacing: 0.065em;
+	color: #eabf77;
+	text-transform: uppercase;
 }
 
-.nav-link:focus, .nav-link:hover {
-    color: papayawhip;
+.nav-link:focus,
+.nav-link:hover {
+	color: papayawhip;
 }
 
 .navbar-toggler-icon i {
-    color: #EABF77 !important;
-    border-color: #EABF77 !important;
-    outline-color: none;
+	color: #eabf77 !important;
+	border-color: #eabf77 !important;
+	outline-color: none;
 }
 
-button:focus, button:active:focus, button.active:focus,
-button.focus, button:active.focus, button.active.focus {
-    outline: none;
+button:focus,
+button:active:focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button.active.focus {
+	outline: none;
 }
 
 /*
@@ -133,320 +137,347 @@ button.focus, button:active.focus, button.active.focus {
 */
 
 .line {
-    border-bottom: 1px solid #EABF77;
+	border-bottom: 1px solid #eabf77;
 }
 
 .mstrpiecesWrap {
-    background-image: url(../img/masterpiece.png);
-    height: 698px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    border-bottom: 1px solid #EABF77;
-    border-top: 1px solid #EABF77;
-    padding-top: 15%;
+	background-image: url(../img/masterpiece.png);
+	height: 698px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	border-bottom: 1px solid #eabf77;
+	border-top: 1px solid #eabf77;
+	padding-top: 15%;
 }
 
 .mstrpieceSmall {
-    font-family: 'DM Serif Display', serif;
-    font-size: 28px;
-    color: #EABF77;
+	font-family: 'DM Serif Display', serif;
+	font-size: 28px;
+	color: #eabf77;
 }
 
 .mstrpieceBig {
-    font-size: 144px;
-    font-family: 'OldEnglish', serif;
-    color: #EABF77;
+	font-size: 144px;
+	font-family: 'OldEnglish', serif;
+	color: #eabf77;
 }
 
 .meetingWrap {
-    background-image: url(../img/A.svg);
-    height: 700px; /* You must set a specified height */
-    background-position: right; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 25%;
-    margin-bottom: 8rem;
+	background-image: url(../img/A.svg);
+	height: 700px; /* You must set a specified height */
+	background-position: right; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 25%;
+	margin-bottom: 8rem;
 }
 
 .modal-content {
-    background-color: #221B1B;
+	background-color: #221b1b;
 }
 
 .teaserWrap {
-    background-image: url(../img/M.svg);
-    height: 700px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 25%;
+	background-image: url(../img/M.svg);
+	height: 700px; /* You must set a specified height */
+	background-position: left; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 25%;
 }
 
 .partnersWrap {
-    border-top: 1px solid #EABF77;
-    background-image: url(../img/back_partners.png);
-    background-color: #221B1B; /* Used if the image is unavailable */
-    height: 641px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
+	border-top: 1px solid #eabf77;
+	background-image: url(../img/back_partners.png);
+	background-color: #221b1b; /* Used if the image is unavailable */
+	height: 641px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
 }
 
 /*1st PhotoShoot*/
 /*Mona Lisa */
 .sWrap {
-    background-image: url(../img/S.svg);
-    height: 700px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 25%;
+	background-image: url(../img/S.svg);
+	height: 700px; /* You must set a specified height */
+	background-position: left; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 25%;
 }
 
 .monaWrap {
-    background-image: url(../img/mona.png);
-    height: 700px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 30%;
-    margin-left: 12rem;
+	background-image: url(../img/mona.png);
+	height: 700px; /* You must set a specified height */
+	background-position: left; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 30%;
+	margin-left: 12rem;
 }
 
 .oneWrap {
-    background-image: url(../img/1.svg);
-    height: 300px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 18%;
+	background-image: url(../img/1.svg);
+	height: 300px; /* You must set a specified height */
+	background-position: left; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 18%;
 }
 
 /*Sashenka*/
 .tWrap {
-    background-image: url(../img/T.svg);
-    height: 700px; /* You must set a specified height */
-    background-position: right; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 25%;
+	background-image: url(../img/T.svg);
+	height: 700px; /* You must set a specified height */
+	background-position: right; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 25%;
 }
 
 .girlWrap {
-    background-image: url(../img/mona.png);
-    height: 700px; /* You must set a specified height */
-    background-position: right; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 30%;
-    margin-right: 12rem;
+	background-image: url(../img/mona.png);
+	height: 700px; /* You must set a specified height */
+	background-position: right; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 30%;
+	margin-right: 12rem;
 }
 
 .twoWrap {
-    background-image: url(../img/2.svg);
-    height: 300px; /* You must set a specified height */
-    background-position: right; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 18%;
+	background-image: url(../img/2.svg);
+	height: 300px; /* You must set a specified height */
+	background-position: right; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: 18%;
 }
 
-
 .card {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .card-text {
-    margin-left: 0;
+	margin-left: 0;
 }
 
-.row {
-    width: 100%;
-}
-
-.rowPhoto, .rowPartners, .rowFooter {
-    margin: 0 auto;
+.rowPhoto,
+.rowPartners,
+.rowFooter {
+	margin: 0 auto;
 }
 
 .rowTitle {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 /*Footer*/
 
 .footerWrap {
-    border-top: 1px solid #EABF77;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+	border-top: 1px solid #eabf77;
+	height: 150px;
+	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
 .footerIcon {
-    font-size: 32pt;
+	font-size: 32pt;
 }
 
 /*First Photoshoot*/
+.imagePhoto:hover .imageImg {
+	transform: scale(1.05);
+}
+
+.imageImg {
+	width: 100%;
+	transition: transform 0.3s ease;
+	will-change: transform;
+}
+
+.imageDescription {
+	margin-top: 32px;
+}
 .imageTitle {
-    font-size: 48px;
-    font-family: 'OldEnglish', serif;
-    margin-bottom: 0rem;
+	font-size: 48px;
+	line-height: 48px;
+	font-family: 'OldEnglish', serif;
+	margin-bottom: 0rem;
+}
+
+.imageNumber {
+	position: absolute;
+	top: -50px;
+	font-family: 'OldEnglish', serif;
+	font-size: 212px;
+}
+
+.sWrap .imageNumber {
+	right: -50px;
+	letter-spacing: -24px;
+}
+
+.tWrap .imageNumber {
+	left: -64px;
+}
+
+.imageText {
+	font-size: 18px;
+	margin-top: 74px;
 }
 
 .columnImageWrap {
-    margin-top: 4rem;
-    padding-left: 7rem;
+	margin-top: 4rem;
+	padding-left: 7rem;
 }
 
 .columnImageWrapReverse {
-    padding-right: 2rem;
-    margin-top: 3rem;
+	padding-right: 2rem;
+	margin-top: 3rem;
 }
 
 .columnTitleWrap {
-    margin-top: 3rem;
+	margin-top: 3rem;
 }
 
 .columnTitleWrapReverse {
-    margin-top: 7.5rem;
-}
-
-.textImage {
-    font-size: 18px;
-    margin-right: 10rem;
+	margin-top: 7.5rem;
 }
 
 @media screen and (max-width: 1024px) {
-    .soonText {
-        margin-left: 7rem;
-    }
+	.soonText {
+		margin-left: 7rem;
+	}
 
-    .soonMainText {
-        margin-top: 1rem;
-        margin-left: 7rem;
-    }
+	.soonMainText {
+		margin-top: 1rem;
+		margin-left: 7rem;
+	}
 
-    .card-text {
-        margin-left: 0;
-    }
+	.card-text {
+		margin-left: 0;
+	}
 
-    .rowTitle {
-        margin-top: 10%;
-    }
+	.rowTitle {
+		margin-top: 10%;
+	}
 }
 
 @media screen and (max-width: 991px) {
-    .card-text {
-        margin-left: 5rem;
-        margin-right: 0;
-    }
+	.card-text {
+		margin-left: 5rem;
+		margin-right: 0;
+	}
 
-    .mstrpieceBig {
-        font-size: 110px;
-    }
+	.mstrpieceBig {
+		font-size: 110px;
+	}
 }
 
 @media screen and (max-width: 822px) {
-    .soonMainText {
-        font-size: 36px;
-    }
+	.soonMainText {
+		font-size: 36px;
+	}
 
-    .nav-link {
-        font-size: 18px;
-    }
+	.nav-link {
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    .soonText {
-        margin-right: 0;
-        font-size: 20px;
-    }
+	.soonText {
+		margin-right: 0;
+		font-size: 20px;
+	}
 
-    .soonMainText {
-        margin-top: 1rem;
-        margin-left: 7rem;
-        font-size: 32px;
-    }
+	.soonMainText {
+		margin-top: 1rem;
+		margin-left: 7rem;
+		font-size: 32px;
+	}
 
-    .card-text {
-        margin-left: 0;
-    }
+	.card-text {
+		margin-left: 0;
+	}
 
-    .card-body {
-        margin-left: 3rem;
-    }
+	.card-body {
+		margin-left: 3rem;
+	}
 
-    .mstrpieceBig {
-        font-size: 90px;
-    }
+	.mstrpieceBig {
+		font-size: 90px;
+	}
 
-    .rowTitle {
-        margin-top: 20%;
-    }
+	.rowTitle {
+		margin-top: 20%;
+	}
 
-    .mstrpiecesWrap {
-        height: 620px;
-    }
+	.mstrpiecesWrap {
+		height: 620px;
+	}
 }
 
 @media screen and (max-width: 425px) {
-    .sectionTitle {
-        font-size: 50px;
-    }
+	.sectionTitle {
+		font-size: 50px;
+	}
 
-    .soonText {
-        margin-left: 4.25rem;
-    }
+	.soonText {
+		margin-left: 4.25rem;
+	}
 
-    .soonMainText {
-        margin-top: 3rem;
-        margin-left: 4.25rem;
-    }
+	.soonMainText {
+		margin-top: 3rem;
+		margin-left: 4.25rem;
+	}
 
-    .card-text {
-        margin-left: 0;
-    }
+	.card-text {
+		margin-left: 0;
+	}
 
-    .mstrpieceBig {
-        font-size: 66px;
-    }
+	.mstrpieceBig {
+		font-size: 66px;
+	}
 }
 
 @media screen and (max-width: 375px) {
-    .sectionTitle {
-        font-size: 48px;
-    }
+	.sectionTitle {
+		font-size: 48px;
+	}
 
-    .soonText {
-        font-size: 18px;
-        margin-left: 4.25rem;
-    }
+	.soonText {
+		font-size: 18px;
+		margin-left: 4.25rem;
+	}
 
-    .soonMainText {
-        font-size: 30px;
-        margin-top: 2rem;
-        margin-left: 4.25rem;
-    }
+	.soonMainText {
+		font-size: 30px;
+		margin-top: 2rem;
+		margin-left: 4.25rem;
+	}
 
-    .firstImg {
-        padding-left: 15px;
-    }
+	.firstImg {
+		padding-left: 15px;
+	}
 
-    .card-text {
-        margin-left: 0;
-    }
+	.card-text {
+		margin-left: 0;
+	}
 
-    .mstrpieceSmall {
-        font-size: 22px;
-    }
+	.mstrpieceSmall {
+		font-size: 22px;
+	}
 
-    .mstrpieceBig {
-        font-size: 60px;
-    }
+	.mstrpieceBig {
+		font-size: 60px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-    .sectionTitle {
-        font-size: 40px;
-    }
+	.sectionTitle {
+		font-size: 40px;
+	}
 
-    .mstrpieceSmall {
-        font-size: 20px;
-    }
+	.mstrpieceSmall {
+		font-size: 20px;
+	}
 
-    .mstrpieceBig {
-        font-size: 45px;
-    }
+	.mstrpieceBig {
+		font-size: 45px;
+	}
 }
