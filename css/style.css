@@ -193,7 +193,7 @@ button.active.focus {
 	background-image: url(../img/video-1.png);
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat;
-	border: 6px solid #EABF77;
+	border: 6px solid #eabf77;
 	box-sizing: border-box;
 	height: 600px;
 	text-align: center;
@@ -366,16 +366,16 @@ button.active.focus {
 	.soonText {
 		margin-left: 7rem;
 	}
-	
+
 	.soonMainText {
 		margin-top: 1rem;
 		margin-left: 7rem;
 	}
-	
+
 	.card-text {
 		margin-left: 0;
 	}
-	
+
 	.rowTitle {
 		margin-top: 10%;
 	}
@@ -386,7 +386,7 @@ button.active.focus {
 		margin-left: 5rem;
 		margin-right: 0;
 	}
-	
+
 	.mstrpieceBig {
 		font-size: 110px;
 	}
@@ -396,7 +396,7 @@ button.active.focus {
 	.soonMainText {
 		font-size: 36px;
 	}
-	
+
 	.nav-link {
 		font-size: 18px;
 	}
@@ -407,29 +407,29 @@ button.active.focus {
 		margin-right: 0;
 		font-size: 20px;
 	}
-	
+
 	.soonMainText {
 		margin-top: 1rem;
 		margin-left: 7rem;
 		font-size: 32px;
 	}
-	
+
 	.card-text {
 		margin-left: 0;
 	}
-	
+
 	.card-body {
 		margin-left: 3rem;
 	}
-	
+
 	.mstrpieceBig {
 		font-size: 90px;
 	}
-	
+
 	.rowTitle {
 		margin-top: 20%;
 	}
-	
+
 	.mstrpiecesWrap {
 		height: 620px;
 	}
@@ -439,20 +439,20 @@ button.active.focus {
 	.sectionTitle {
 		font-size: 50px;
 	}
-	
+
 	.soonText {
 		margin-left: 4.25rem;
 	}
-	
+
 	.soonMainText {
 		margin-top: 3rem;
 		margin-left: 4.25rem;
 	}
-	
+
 	.card-text {
 		margin-left: 0;
 	}
-	
+
 	.mstrpieceBig {
 		font-size: 66px;
 	}
@@ -462,30 +462,30 @@ button.active.focus {
 	.sectionTitle {
 		font-size: 48px;
 	}
-	
+
 	.soonText {
 		font-size: 18px;
 		margin-left: 4.25rem;
 	}
-	
+
 	.soonMainText {
 		font-size: 30px;
 		margin-top: 2rem;
 		margin-left: 4.25rem;
 	}
-	
+
 	.firstImg {
 		padding-left: 15px;
 	}
-	
+
 	.card-text {
 		margin-left: 0;
 	}
-	
+
 	.mstrpieceSmall {
 		font-size: 22px;
 	}
-	
+
 	.mstrpieceBig {
 		font-size: 60px;
 	}
@@ -495,11 +495,11 @@ button.active.focus {
 	.sectionTitle {
 		font-size: 40px;
 	}
-	
+
 	.mstrpieceSmall {
 		font-size: 20px;
 	}
-	
+
 	.mstrpieceBig {
 		font-size: 45px;
 	}
