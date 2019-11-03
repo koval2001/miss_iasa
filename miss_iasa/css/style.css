@@ -89,11 +89,12 @@ body {
     text-align: center;
 }
 */
-nav{
+nav {
     background-color: #221B1B;
-    color: #EABF77!important;
+    color: #EABF77 !important;
     width: 100%;
 }
+
 .navbar-nav, .nav-link {
     font-family: 'DM Serif Display', serif;
     font-size: 20px;
@@ -102,17 +103,18 @@ nav{
     text-transform: uppercase;
 }
 
-.nav-link:focus, .nav-link:hover{
+.nav-link:focus, .nav-link:hover {
     color: papayawhip;
 }
+
 .navbar-toggler-icon i {
     color: #EABF77 !important;
     border-color: #EABF77 !important;
     outline-color: none;
 }
 
-button:focus,button:active:focus,button.active:focus,
-button.focus,button:active.focus,button.active.focus {
+button:focus, button:active:focus, button.active:focus,
+button.focus, button:active.focus, button.active.focus {
     outline: none;
 }
 
@@ -166,6 +168,10 @@ button.focus,button:active.focus,button.active.focus {
     margin-bottom: 8rem;
 }
 
+.modal-content {
+    background-color: #221B1B;
+}
+
 .teaserWrap {
     background-image: url(../img/M.svg);
     height: 700px; /* You must set a specified height */
@@ -194,7 +200,7 @@ button.focus,button:active.focus,button.active.focus {
     background-size: 25%;
 }
 
-.monaWrap{
+.monaWrap {
     background-image: url(../img/mona.png);
     height: 700px; /* You must set a specified height */
     background-position: left; /* Center the image */
@@ -203,7 +209,7 @@ button.focus,button:active.focus,button.active.focus {
     margin-left: 12rem;
 }
 
-.oneWrap{
+.oneWrap {
     background-image: url(../img/1.svg);
     height: 300px; /* You must set a specified height */
     background-position: left; /* Center the image */
@@ -220,7 +226,7 @@ button.focus,button:active.focus,button.active.focus {
     background-size: 25%;
 }
 
-.girlWrap{
+.girlWrap {
     background-image: url(../img/mona.png);
     height: 700px; /* You must set a specified height */
     background-position: right; /* Center the image */
@@ -229,7 +235,7 @@ button.focus,button:active.focus,button.active.focus {
     margin-right: 12rem;
 }
 
-.twoWrap{
+.twoWrap {
     background-image: url(../img/2.svg);
     height: 300px; /* You must set a specified height */
     background-position: right; /* Center the image */
@@ -253,7 +259,8 @@ button.focus,button:active.focus,button.active.focus {
 .rowPhoto, .rowPartners, .rowFooter {
     margin: 0 auto;
 }
-.rowTitle{
+
+.rowTitle {
     margin: 0 auto;
 }
 
@@ -272,31 +279,31 @@ button.focus,button:active.focus,button.active.focus {
 }
 
 /*First Photoshoot*/
-.imageTitle{
+.imageTitle {
     font-size: 48px;
     font-family: 'OldEnglish', serif;
-    margin-bottom:0rem;
+    margin-bottom: 0rem;
 }
 
-.columnImageWrap{
+.columnImageWrap {
     margin-top: 4rem;
     padding-left: 7rem;
 }
 
-.columnImageWrapReverse{
+.columnImageWrapReverse {
     padding-right: 2rem;
     margin-top: 3rem;
 }
 
-.columnTitleWrap{
+.columnTitleWrap {
     margin-top: 3rem;
 }
 
-.columnTitleWrapReverse{
+.columnTitleWrapReverse {
     margin-top: 7.5rem;
 }
 
-.textImage{
+.textImage {
     font-size: 18px;
     margin-right: 10rem;
 }
@@ -314,7 +321,8 @@ button.focus,button:active.focus,button.active.focus {
     .card-text {
         margin-left: 0;
     }
-    .rowTitle{
+
+    .rowTitle {
         margin-top: 10%;
     }
 }
@@ -324,7 +332,8 @@ button.focus,button:active.focus,button.active.focus {
         margin-left: 5rem;
         margin-right: 0;
     }
-    .mstrpieceBig{
+
+    .mstrpieceBig {
         font-size: 110px;
     }
 }
@@ -333,7 +342,8 @@ button.focus,button:active.focus,button.active.focus {
     .soonMainText {
         font-size: 36px;
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 18px;
     }
 }
@@ -357,13 +367,16 @@ button.focus,button:active.focus,button.active.focus {
     .card-body {
         margin-left: 3rem;
     }
-    .mstrpieceBig{
+
+    .mstrpieceBig {
         font-size: 90px;
     }
-    .rowTitle{
+
+    .rowTitle {
         margin-top: 20%;
     }
-    .mstrpiecesWrap{
+
+    .mstrpiecesWrap {
         height: 620px;
     }
 }
@@ -385,7 +398,8 @@ button.focus,button:active.focus,button.active.focus {
     .card-text {
         margin-left: 0;
     }
-    .mstrpieceBig{
+
+    .mstrpieceBig {
         font-size: 66px;
     }
 }
@@ -413,21 +427,26 @@ button.focus,button:active.focus,button.active.focus {
     .card-text {
         margin-left: 0;
     }
-    .mstrpieceSmall{
+
+    .mstrpieceSmall {
         font-size: 22px;
     }
-    .mstrpieceBig{
+
+    .mstrpieceBig {
         font-size: 60px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .sectionTitle {
         font-size: 40px;
     }
-    .mstrpieceSmall{
+
+    .mstrpieceSmall {
         font-size: 20px;
     }
-    .mstrpieceBig{
+
+    .mstrpieceBig {
         font-size: 45px;
     }
 }
