@@ -142,6 +142,10 @@ button.active.focus {
 }
 
 .mstrpiecesWrap {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	background-image: url(../img/masterpiece.png);
 	height: 698px; /* You must set a specified height */
 	background-position: center; /* Center the image */
@@ -149,7 +153,6 @@ button.active.focus {
 	background-size: cover;
 	border-bottom: 1px solid #eabf77;
 	border-top: 1px solid #eabf77;
-	padding-top: 20%;
 }
 
 .mstrpieceSmall {
@@ -190,15 +193,16 @@ button.active.focus {
 }
 
 .teaserPlayWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-image: url(../img/video-1.png);
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat;
 	border: 6px solid #eabf77;
 	box-sizing: border-box;
 	height: 600px;
-	text-align: center;
 	width: 100%;
-	padding-top: 20%;
 }
 
 .teaserPlay {
@@ -435,6 +439,12 @@ button.active.focus {
 	}
 }
 
+@media screen and (max-width: 548px) {
+	.mstrpieceBig {
+		font-size: 66px;
+	}
+}
+
 @media screen and (max-width: 425px) {
 	.sectionTitle {
 		font-size: 50px;
@@ -451,10 +461,6 @@ button.active.focus {
 
 	.card-text {
 		margin-left: 0;
-	}
-
-	.mstrpieceBig {
-		font-size: 66px;
 	}
 }
 
