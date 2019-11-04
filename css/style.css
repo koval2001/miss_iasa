@@ -32,7 +32,7 @@ body {
 }
 
 .sectionWrap {
-	margin-top: 3rem;
+	margin-top: 4rem;
 	background-color: #221b1b;
 }
 
@@ -172,7 +172,6 @@ button.active.focus {
 	background-position: right; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
-	margin-bottom: 8rem;
 }
 
 .modal-content {
