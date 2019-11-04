@@ -155,14 +155,6 @@ button.active.focus {
 	border-top: 1px solid #eabf77;
 }
 
-.mstrpiecesWrap hr {
-	margin: 0 auto;
-	border: none;
-	color: #eabf77;
-	background-color: #eabf77;
-	height: 1px;
-}
-
 .mstrpieceSmall {
 	font-family: 'DM Serif Display', serif;
 	font-size: 28px;
