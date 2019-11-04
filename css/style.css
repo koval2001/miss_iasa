@@ -169,7 +169,6 @@ button.active.focus {
 
 .meetingWrap {
 	background-image: url(../img/A.svg);
-	height: 700px; /* You must set a specified height */
 	background-position: right; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
