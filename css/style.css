@@ -144,8 +144,8 @@ button.active.focus {
 .mstrpiecesWrap {
 	display: flex;
 	flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 	background-image: url(../img/masterpiece.png);
 	height: 698px; /* You must set a specified height */
 	background-position: center; /* Center the image */
@@ -153,6 +153,14 @@ button.active.focus {
 	background-size: cover;
 	border-bottom: 1px solid #eabf77;
 	border-top: 1px solid #eabf77;
+}
+
+.mstrpiecesWrap hr {
+	margin: 0 auto;
+	border: none;
+	color: #eabf77;
+	background-color: #eabf77;
+	height: 1px;
 }
 
 .mstrpieceSmall {
