@@ -63,8 +63,6 @@ body {
 .soonText {
 	font-size: 24px;
 	margin-top: 2rem;
-	margin-left: 9rem;
-	margin-right: 7rem;
 }
 
 .soonMainText {
@@ -72,7 +70,6 @@ body {
 	font-size: 40px;
 	letter-spacing: 0.19em;
 	margin-top: 3rem;
-	margin-left: 9rem;
 }
 
 /*
@@ -300,7 +297,10 @@ button.active.focus {
 }
 
 .footerIcon {
-	font-size: 32pt;
+	margin: 0 8px;
+}
+.footerIcon:hover {
+	text-decoration: none;
 }
 
 /*First Photoshoot*/
@@ -365,13 +365,9 @@ button.active.focus {
 }
 
 @media screen and (max-width: 1024px) {
-	.soonText {
-		margin-left: 7rem;
-	}
 
 	.soonMainText {
 		margin-top: 1rem;
-		margin-left: 7rem;
 	}
 
 	.card-text {
@@ -406,13 +402,11 @@ button.active.focus {
 
 @media screen and (max-width: 768px) {
 	.soonText {
-		margin-right: 0;
 		font-size: 20px;
 	}
 
 	.soonMainText {
 		margin-top: 1rem;
-		margin-left: 7rem;
 		font-size: 32px;
 	}
 
@@ -448,13 +442,8 @@ button.active.focus {
 		font-size: 50px;
 	}
 
-	.soonText {
-		margin-left: 4.25rem;
-	}
-
 	.soonMainText {
 		margin-top: 3rem;
-		margin-left: 4.25rem;
 	}
 
 	.card-text {
@@ -469,13 +458,11 @@ button.active.focus {
 
 	.soonText {
 		font-size: 18px;
-		margin-left: 4.25rem;
 	}
 
 	.soonMainText {
 		font-size: 30px;
 		margin-top: 2rem;
-		margin-left: 4.25rem;
 	}
 
 	.firstImg {
