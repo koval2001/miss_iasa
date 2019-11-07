@@ -135,6 +135,14 @@ button.active.focus {
 	background-size: 25%;
 }
 
+.modal-content {
+	background-color: #221b1b;
+}
+
+.modal-body {
+	padding: 0.5rem;
+}
+
 .teaserWrap {
 	background-image: url(../img/letters/M.svg);
 	height: 600px; /* You must set a specified height */
