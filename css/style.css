@@ -9,9 +9,6 @@
 	font-family: 'DM Serif Display', serif;
 	line-height: 1.4;
 	color: #eabf77;
-}
-
-* {
 	margin: 0;
 	padding: 0;
 }
@@ -27,9 +24,7 @@ body {
 	padding-right: 0 !important; /*Хак. Не убирать, при открытии галереи контент смещается, а нам это не нужно*/
 }
 
-#pageWrap {
-	/*    height: 1100px;*/
-}
+
 
 .sectionWrap {
 	margin-top: 4rem;
@@ -55,10 +50,6 @@ body {
 	width: 100%;
 }
 
-.imgQuotes {
-	height: 145px;
-	width: auto;
-}
 
 .soonText {
 	font-size: 24px;
@@ -72,19 +63,6 @@ body {
 	margin-top: 3rem;
 }
 
-/*
-.navWrap {
-    height: 70px;
-}
-*/
-
-/*
-.navSemi {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-*/
 nav {
 	background-color: #221b1b;
 	color: #eabf77 !important;
@@ -120,20 +98,6 @@ button.active.focus {
 	outline: none;
 }
 
-/*
-.customCol17 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.customCol17 {
-    width: 14.285714%;
-    float: left;
-}
-*/
-
 .line {
 	border-bottom: 1px solid #eabf77;
 }
@@ -165,22 +129,14 @@ button.active.focus {
 }
 
 .meetingWrap {
-	background-image: url(../img/A.svg);
+	background-image: url(../img/letters/A.svg);
 	background-position: right; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
 }
 
-.modal-content {
-	background-color: #221b1b;
-}
-
-.modal-body {
-	padding: 0.5rem;
-}
-
 .teaserWrap {
-	background-image: url(../img/M.svg);
+	background-image: url(../img/letters/M.svg);
 	height: 600px; /* You must set a specified height */
 	background-position: left; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -218,7 +174,7 @@ button.active.focus {
 /*1st PhotoShoot*/
 /*Mona Lisa */
 .sWrap {
-	background-image: url(../img/S.svg);
+	background-image: url(../img/letters/S.svg);
 	height: 700px; /* You must set a specified height */
 	background-position: left; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -244,7 +200,7 @@ button.active.focus {
 
 /*Sashenka*/
 .tWrap {
-	background-image: url(../img/T.svg);
+	background-image: url(../img/letters/T.svg);
 	height: 700px; /* You must set a specified height */
 	background-position: right; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -365,7 +321,6 @@ button.active.focus {
 }
 
 @media screen and (max-width: 1024px) {
-
 	.soonMainText {
 		margin-top: 1rem;
 	}
@@ -428,6 +383,12 @@ button.active.focus {
 
 	.mstrpiecesWrap {
 		height: 620px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.meetingImg {
+		padding: 0 16px;
 	}
 }
 
