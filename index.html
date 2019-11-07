@@ -8,20 +8,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/icon.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/icon.png">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110013743-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-110013743-3');
+	</script>
+
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 	<!--ekko-lightbox-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
 	<script crossorigin="anonymous" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
 		src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<!-- Theme style  -->
+
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -32,8 +40,7 @@
 				<div class="navbar-toggler-right">
 					<button class="navbar-toggler" aria-controls="navbarTogglerDemo02" aria-expanded="false"
 						aria-label="Toggle navigation" data-target="#navbar" data-toggle="collapse" type="button">
-						<span class="navbar-toggler-icon"><i class="fas fa-bars"
-								style="color:#fff; font-size:28px;"></i></span>
+						<span class="navbar-toggler-icon"><img src="img/icons/menu.svg" alt=""></span>
 					</button>
 				</div>
 
@@ -85,7 +92,8 @@
 					<div class="teaserPlayWrap col-md-10 offset-md-1 col-12">
 						<a class="teaserPlay" data-toggle="lightbox" data-type="youtube" data-width="1280"
 							href="https://www.youtube.com/watch?v=m5VIS_1uOV4">
-							<i class="fas fa-play"></i>
+							<img width="100%" src="img/icons/play.svg" alt="teaser play">
+
 						</a>
 					</div>
 				</div>
