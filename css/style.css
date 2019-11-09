@@ -135,6 +135,10 @@ button.active.focus {
 	background-size: 25%;
 }
 
+.meetingImg {
+	min-height: 387px;
+}
+
 .modal-content {
 	background-color: #221b1b;
 }
