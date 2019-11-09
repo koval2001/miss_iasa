@@ -28,6 +28,7 @@
 		src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="js/lazysizes.min.js" async=""></script>
 	<!-- Theme style  -->
 
 	<link rel="stylesheet" href="css/style.css">
@@ -113,31 +114,31 @@
 					<div class="row justify-content-center">
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/1-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/1-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/1-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/2-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/2-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/2-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/3-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/3-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/3-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/4-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/4-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/4-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/5-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/5-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/5-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6 mb-4" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/6-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/6-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/6-2.jpg">
 						</a>
 						<a class="col-md-4 col-sm-6" data-gallery="meeting" data-toggle="lightbox"
 							href="./img/meeting/7-2.jpg">
-							<img class="img-fluid meetingImg" src="./img/meeting/7-2.jpg">
+							<img class="img-fluid meetingImg lazyload" data-src="./img/meeting/7-2.jpg">
 						</a>
 					</div>
 				</div>
@@ -282,6 +283,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 	<script>
 		$(document).ready(function () {
+
 			$(".navbar-nav, #to-top").on("click", "a", function (event) {
 				event.preventDefault();
 				var id = $(this).attr('href');
