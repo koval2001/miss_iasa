@@ -296,16 +296,12 @@ button.active.focus {
 .imageNumber {
 	position: absolute;
 	top: -50px;
+	right: -50px;
 	font-family: 'OldEnglish', serif;
 	font-size: 212px;
 }
 
-.sWrap .imageNumber {
-	right: -50px;
-	letter-spacing: -24px;
-}
-
-.tWrap .imageNumber {
+.imageNumber.right {
 	left: -64px;
 }
 
