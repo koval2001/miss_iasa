@@ -185,12 +185,21 @@ button.active.focus {
 
 /*1st PhotoShoot*/
 /*Mona Lisa */
-.sWrap {
-	background-image: url(../img/letters/S.svg);
-	height: 700px; /* You must set a specified height */
+.sWrap, .eWrap, .pWrap{
+	height: 100%; /* You must set a specified height */
 	background-position: left; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
+}
+
+.sWrap{
+    background-image: url(../img/letters/S.svg);
+}
+.eWrap{
+    background-image: url(../img/letters/E.svg);
+}
+.pWrap{
+    background-image: url(../img/letters/P.svg);
 }
 
 .monaWrap {
@@ -211,12 +220,22 @@ button.active.focus {
 }
 
 /*Sashenka*/
-.tWrap {
+.tWrap, .rWrap, .iWrap {
 	background-image: url(../img/letters/T.svg);
-	height: 700px; /* You must set a specified height */
+	height: 100%; /* You must set a specified height */
 	background-position: right; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
+}
+
+.tWrap {
+	background-image: url(../img/letters/T.svg);
+}
+.rWrap {
+	background-image: url(../img/letters/R.svg);
+}
+.iWrap {
+	background-image: url(../img/letters/I.svg);
 }
 
 .girlWrap {
@@ -351,6 +370,16 @@ button.active.focus {
 	.mstrpieceBig {
 		font-size: 110px;
 	}
+    .imageNumber {
+        font-size: 192px;
+    }
+    .imageTitle {
+        font-size: 42px;
+    }
+    .imageText {
+        font-size: 17px;
+        margin-top: 54px;
+    }
 }
 
 @media screen and (max-width: 822px) {
@@ -394,8 +423,20 @@ button.active.focus {
 	}
 }
 
+@media screen and (max-width:767px){
+    .imageNumber {
+        font-size: 230px;
+    }
+}
+
+@media screen and (max-width:663px){
+    .imageNumber {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 575px) {
-	.meetingImg {
+	.meetingImg, .imageImg, .imageDescription {
 		padding: 0 16px;
 	}
 }
@@ -404,6 +445,16 @@ button.active.focus {
 	.mstrpieceBig {
 		font-size: 66px;
 	}
+}
+
+@media screen and (max-width:440px){
+    .imageTitle {
+        font-size:38px;
+    }
+    .imageText {
+        font-size: 16px;
+        margin-top: 28px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -418,6 +469,12 @@ button.active.focus {
 	.card-text {
 		margin-left: 0;
 	}
+}
+
+@media screen and (max-width:404px){
+    .imageTitle{
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -451,6 +508,16 @@ button.active.focus {
 	}
 }
 
+@media screen and (max-width:368px){
+    .imageTitle{
+        font-size: 32px;
+    }
+    .imageText {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
 	.sectionTitle {
 		font-size: 40px;
@@ -463,4 +530,7 @@ button.active.focus {
 	.mstrpieceBig {
 		font-size: 45px;
 	}
+    .imageTitle {
+        line-height: 36px;
+    }
 }
