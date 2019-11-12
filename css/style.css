@@ -347,6 +347,25 @@ button.active.focus {
 	margin-top: 7.5rem;
 }
 
+.girlsText{
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.girlsText li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1em;
+}
+
+.listBefore{
+    margin-top: 40px;
+}
+
+.listAfter{
+    margin-top: 0;
+}
+
 @media screen and (max-width: 1024px) {
 	.soonMainText {
 		margin-top: 1rem;
