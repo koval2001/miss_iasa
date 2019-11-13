@@ -193,74 +193,15 @@ button.active.focus {
 
 /*1st PhotoShoot*/
 /*Mona Lisa */
-.sWrap, .eWrap, .pWrap{
+.letterWrap {
 	height: 100%; /* You must set a specified height */
 	background-position: left; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: 25%;
 }
 
-.sWrap{
-    background-image: url(../img/letters/S.svg);
-}
-.eWrap{
-    background-image: url(../img/letters/E.svg);
-}
-.pWrap{
-    background-image: url(../img/letters/P.svg);
-}
-
-.monaWrap {
-	background-image: url(../img/mona.png);
-	height: 700px; /* You must set a specified height */
-	background-position: left; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 30%;
-	margin-left: 12rem;
-}
-
-.oneWrap {
-	background-image: url(../img/1.svg);
-	height: 300px; /* You must set a specified height */
-	background-position: left; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 18%;
-}
-
-/*Sashenka*/
-.tWrap, .rWrap, .iWrap {
-	background-image: url(../img/letters/T.svg);
-	height: 100%; /* You must set a specified height */
+.letterWrap.right {
 	background-position: right; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 25%;
-}
-
-.tWrap {
-	background-image: url(../img/letters/T.svg);
-}
-.rWrap {
-	background-image: url(../img/letters/R.svg);
-}
-.iWrap {
-	background-image: url(../img/letters/I.svg);
-}
-
-.girlWrap {
-	background-image: url(../img/mona.png);
-	height: 700px; /* You must set a specified height */
-	background-position: right; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 30%;
-	margin-right: 12rem;
-}
-
-.twoWrap {
-	background-image: url(../img/2.svg);
-	height: 300px; /* You must set a specified height */
-	background-position: right; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: 18%;
 }
 
 .card {
