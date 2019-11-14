@@ -407,9 +407,9 @@ button.active.focus {
 	.meetingImg, .imageImg, .imageDescription {
 		padding: 0 16px;
 	}
-    .sWrap, .eWrap, .pWrap, .tWrap, .rWrap, .iWrap{
-        background-image: none;
-    }
+	.letterWrap {
+		background-image: none !important;
+	}
     
 }
 
