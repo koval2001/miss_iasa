@@ -315,6 +315,16 @@ button.active.focus {
     margin-top: 0;
 }
 
+.instLink {
+	color: #eabf77;
+}
+
+.instLink:focus,
+.instLink:hover {
+	text-decoration: none;
+	color: papayawhip;
+}
+
 @media screen and (max-width: 1024px) {
 	.soonMainText {
 		margin-top: 1rem;
