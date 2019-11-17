@@ -191,6 +191,21 @@ button.active.focus {
 	background-size: cover;
 }
 
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logos a img {
+    width: 230px;
+    height: 100%;
+    margin: 25px;
+}
+
+
 /*1st PhotoShoot*/
 /*Mona Lisa */
 .letterWrap {
