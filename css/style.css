@@ -335,6 +335,34 @@ button.active.focus {
     color: papayawhip;
 }
 
+/*Promo*/
+
+.promoWrap {
+    background-image: url(../img/letters/M.svg);
+    height: 600px; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 25%;
+}
+
+.promoPlayWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/video-1.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    border: 6px solid #eabf77;
+    box-sizing: border-box;
+    height: 600px;
+    width: 100%;
+}
+
+.promoPlay {
+    font-size: 100pt;
+    text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
     .soonMainText {
         margin-top: 1rem;
