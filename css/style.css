@@ -164,7 +164,6 @@ button.active.focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/video-1.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
     border: 6px solid #eabf77;
