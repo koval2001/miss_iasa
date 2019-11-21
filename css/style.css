@@ -144,6 +144,10 @@ button.active.focus {
     min-height: 387px;
 }
 
+.thirdWrap {
+    background-image: url(../img/letters/C.svg);
+}
+
 .modal-content {
     background-color: #221b1b;
 }
