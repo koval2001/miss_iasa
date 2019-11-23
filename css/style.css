@@ -156,6 +156,22 @@ button.active.focus {
     padding: 0.5rem;
 }
 
+.modal-header {
+    padding: 14px 8px;
+    border-bottom: 1px solid #eabf77;
+    line-height: 0;
+}
+
+.modal-title {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.close, .close span {
+    line-height: 0;
+}
+
+
 .videoWrap {
     background-image: url(../img/letters/M.svg);
     height: 600px; /* You must set a specified height */
@@ -168,6 +184,7 @@ button.active.focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: 100% 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
     border: 6px solid #eabf77;
@@ -183,26 +200,25 @@ button.active.focus {
 
 .partnersWrap {
     border-top: 1px solid #eabf77;
-    background-image: url(../img/back_partners.png);
+    background-image: url(../img/masterpiece.png);
     background-color: #221b1b; /* Used if the image is unavailable */
     min-height: 641px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover;
-	padding: 48px 0;
+    background-size: cover;
+    padding: 48px 0;
 }
 
 .partnersLogoWrapper {
-	display: flex;
+    display: flex;
     align-items: center;
     width: 160px;
-	margin: 14px 8px;
+    margin: 14px 8px;
 }
 
 .partnersLogo {
     width: 100%;
 }
-
 
 /*1st PhotoShoot*/
 /*Mona Lisa */
@@ -337,7 +353,6 @@ button.active.focus {
     text-decoration: none;
     color: papayawhip;
 }
-
 
 @media screen and (max-width: 1024px) {
     .soonMainText {
