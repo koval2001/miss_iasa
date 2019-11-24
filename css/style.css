@@ -184,7 +184,7 @@ button.active.focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
     border: 6px solid #eabf77;
