@@ -141,7 +141,7 @@ button.active.focus {
 }
 
 .meetingImg {
-    min-height: 387px;
+    /*min-height: 387px;*/
 }
 
 .thirdWrap {
@@ -184,7 +184,7 @@ button.active.focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
     border: 6px solid #eabf77;
@@ -213,7 +213,7 @@ button.active.focus {
     display: flex;
     align-items: center;
     width: 160px;
-    margin: 14px 8px;
+    margin: 14px 36px;
 }
 
 .partnersLogo {
