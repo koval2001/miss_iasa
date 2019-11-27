@@ -213,7 +213,7 @@ button.active.focus {
     display: flex;
     align-items: center;
     width: 160px;
-    margin: 14px 36px;
+    margin: 16px 24px;
 }
 
 .partnersLogo {
